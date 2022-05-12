@@ -5,12 +5,15 @@
 // }
 
 .header-container {
+  display: flex;
+  align-items: center;
   border-radius: 0px;
   padding: 200px 0;
 }
 
 .logo {
   background: #ffffff;
+  margin-right: 140px;
 }
 
 .header-link {
