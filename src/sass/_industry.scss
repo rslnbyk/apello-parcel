@@ -1,0 +1,28 @@
+.industry {
+padding: 150px 691px 159px 229px;
+}
+
+.industry__title {
+    font-weight: 400;
+font-size: 41px;
+line-height: 1.22;
+color: #000000;
+margin-bottom: 35px;
+}
+
+.industry__text {
+    font-weight: 400;
+font-size: 16px;
+line-height: 1.88;
+color: #737373;
+margin-bottom: 45px;
+}
+
+.industry-list {
+    list-style: none;
+    display: flex;
+}
+
+.industry-list__item+.industry-list__item {
+    margin-right: 30px;
+}
