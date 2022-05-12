@@ -1,0 +1,47 @@
+.work {
+    font-family: 'Roboto';
+
+    padding-top: 150px;
+    padding-bottom: 149px;
+
+    color: #FFFFFF;
+    background-color: #0E0E33;
+
+    &__title {
+        margin-bottom: 80px;
+
+        font-weight: 400;
+        font-size: 41px;
+        line-height: 1.22;
+    
+        text-align: center;
+    
+        color: #FFFFFF;
+    }
+
+    &__item {
+        max-width: 170px;
+        
+        font-weight: 400;
+        font-size: 42px;
+        line-height: 1.19;
+
+        color: #FFFFFF;
+    }
+
+    &__subtitle {
+        font-size: 42px;
+        line-height: 1.19;
+
+        color: #FFFFFF;
+    }
+
+    &__text {
+        font-size: 11px;
+        line-height: 2.73;
+
+
+        color: #FFFFFF;
+
+    }
+}
