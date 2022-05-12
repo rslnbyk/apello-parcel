@@ -1,0 +1,32 @@
+// .header-container {
+//   background-image: url('../images/IMAGE.jpg');
+//   border-radius: 0px;
+//   padding: 200px 0;
+// }
+
+.header-container {
+  display: flex;
+  align-items: center;
+  border-radius: 0px;
+  padding: 200px 0;
+}
+
+.logo {
+  background: #ffffff;
+  margin-right: 140px;
+}
+
+.header-link {
+  font-size: 13px;
+  line-height: 30px;
+  color: #ffffff;
+  margin-right: 50px;
+}
+
+.header-btn {
+  box-sizing: border-box;
+  position: absolute;
+  border: 1px solid #ffffff;
+  border-radius: 4px;
+  margin-right: 68px;
+}
