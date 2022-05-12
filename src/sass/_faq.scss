@@ -1,0 +1,40 @@
+.faq {
+    padding-left: 140px;
+    padding-right: 140px;
+}
+.faq__title {
+    font-family: 'Roboto';
+    font-size: 42px;
+    line-height: 1.19;
+    text-align: center;
+    color: #000000;
+}
+.faq__container {
+    display: flex;
+    flex-direction: column;
+}
+.faq__text {
+    font-family: 'Roboto';
+    font-size: 13px;
+    line-height: 2.31;
+    text-align: center;
+    color: #737373;
+}
+.faq__link {
+    font-family: 'Roboto';
+    font-size: 15px;
+    line-height: 2;
+    text-align: center;
+    color: #0A8BFE;
+}
+.faq__list {
+
+}
+.faq__item {
+    padding-top: 38px;
+    padding-bottom: 38px;
+    font-family: 'Roboto';
+    font-size: 19px;
+    line-height: 1.26;
+    color: #000000;
+}
