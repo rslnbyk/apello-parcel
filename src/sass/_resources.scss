@@ -1,43 +1,46 @@
-.list {
-  list-style: none;
+@mixin resources-font($wd, $mb, $fs, $lh, $ta, $col) {
+  width: $wd;
+  margin-bottom: $mb;
+  font-size: $fs;
+  line-height: $lh;
+  text-align: $ta;
+  color: $col;
 }
-ul,
-ol {
-  padding-left: 0;
-  margin: 0;
-}
-
-img {
-  display: block;
-  width: 100%;
-  height: auto;
-}
-
 
 .resources__h2 {
-  font-size: 42px;
-  line-height: 1.19;
-  text-align: center;
-  color: #000000;
-  margin-bottom: 35px;
+  @include resources-font(null, 35px, 42px, 1.19, center, #000000);
 }
 
 .resources__text {
-  font-size: 14px;
-  line-height: 2.14;
-  text-align: center;
-    margin-bottom: 75px;
-  color: #737373;
+  @include resources-font(null, 75px, 14px, 2.14, center, #737373);
 }
 
-.resources__item {
+.resources-item {
   display: flex;
   justify-content: space-between;
   margin: 0;
 
+  &__info {
+  padding: 10px;
+  width: 360px;
+  margin: 0 15px;
 }
-.resources__info {
-    padding: 10px;
-    width: 360px;
+  
+  &__img {
+  margin-bottom: 10px;
+}
 
+&__text {
+  display: block;
+  padding: 20px;
+  justify-content: center;
+  padding: 40px 30px;
+}
+
+&__h3 {
+  @include resources-font(270px, 20px, 24px, 1.85, null, #000000);
+}
+&__p {
+  @include resources-font(270px, null, 16px, 1.88, null, #737373);
+}
 }
